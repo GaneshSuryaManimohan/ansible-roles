@@ -2,3 +2,5 @@ root_password: ExpenseApp@1
 login_host: db.surya-devops.site
 login_user: root
 DB_HOST: db.surya-devops.site
+component: backend
+app_location: /app
