@@ -16,6 +16,11 @@
       - backend
       - frontend
       register: ec2_instance_info
+
+    - name: print register output
+      ansible.builtin.debug:
+        msg: "Output:: {{ec2_instance_info}}"
+
     # - name: create r53 records
     #   amazon.aws.route53:
     #     zone: "{{zone}}"
